@@ -26,4 +26,4 @@ steps:
 
 - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
   entrypoint: 'gsutil'
-  args: ['gsutil', 'cp', '-r', './public/*', 'gs://${_BUCKET_NAME_TEST}']
+  args: ['cp', '-r', './public/*', 'gs://${_BUCKET_NAME_TEST}']
