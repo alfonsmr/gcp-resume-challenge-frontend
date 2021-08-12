@@ -24,6 +24,6 @@ steps:
     tar -C /tmp -xzf /tmp/hugo.tar.gz
     /tmp/hugo
 
-- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk:alpine'
   entrypoint: 'gsutil'
   args: ['cp', '-r', './public/*', 'gs://${_BUCKET_NAME_TEST}']
