@@ -8,6 +8,8 @@ Bibliografy:
 https://cloud.google.com/storage/docs/hosting-static-website
 https://github.com/jbub/ghostwriter
 https://themes.gohugo.io/themes/ghostwriter/
+https://qualityandinnovation.com/2020/12/23/pushing-your-hugo-site-to-a-gcs-bucket-part-3/
+
 
 
 

@@ -1,0 +1,33 @@
+steps:
+- name: 'gcr.io/cloud-builders/git'
+  entrypoint: 'bash'
+  args:
+  - -c
+  - |
+    git submodule init
+    git submodule update
+    
+- name: 'gcr.io/cloud-builders/wget'
+  args:
+  - '--quiet'
+  - '-O'
+  - 'hugo.tar.gz'
+  - 'https://github.com/gohugoio/hugo/releases/download/v${_HUGO_VERSION}/hugo_extended_${_HUGO_VERSION}_Linux-64bit.tar.gz'
+  waitFor: ['-']
+ 
+- name: 'ubuntu:18.04'
+  args:
+  - 'bash'
+  - '-c'
+  - |
+    mv hugo.tar.gz /tmp
+    tar -C /tmp -xzf /tmp/hugo.tar.gz
+    /tmp/hugo
+
+- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  entrypoint: 'gsutil'
+  args: ['gsutil', 'cp', '-r', './public/*', 'gs://${_BUCKET_NAME_TEST}']
+  waitFor: ['-']
+
+  + 
++ 
