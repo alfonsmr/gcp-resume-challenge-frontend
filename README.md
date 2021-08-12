@@ -38,3 +38,5 @@ If you want to use Cloud CDN, select the checkbox for Enable Cloud CDN. Leave th
 Click Create.
 
 Note: To redirect traffic from HTTP to HTTPS, you need to set up an additional HTTP load balancer with a redirect setting in the URL map. For instructions, see Setting up HTTP-to-HTTPS redirect for external HTTP(S) load balancers.
+
+NOTICE: You need to enable Cloud Build API

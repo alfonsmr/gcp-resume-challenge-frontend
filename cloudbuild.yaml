@@ -28,6 +28,3 @@ steps:
   entrypoint: 'gsutil'
   args: ['gsutil', 'cp', '-r', './public/*', 'gs://${_BUCKET_NAME_TEST}']
   waitFor: ['-']
-
-  + 
-+ 
