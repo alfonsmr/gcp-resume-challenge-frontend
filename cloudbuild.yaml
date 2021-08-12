@@ -29,4 +29,4 @@ steps:
   args: ['cp', '-r', './public/*', 'gs://${_BUCKET_NAME}']
 
 - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk:slim'
-  args: ['gcloud', 'compute', 'url-maps', 'invalidate-cdn-cache', '${_URL_MAP}', '--path="/*"']
+  args: ['gcloud', 'compute', 'url-maps', 'invalidate-cdn-cache', '${_URL_MAP}', '--path=/*']

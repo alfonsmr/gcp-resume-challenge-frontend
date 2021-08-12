@@ -40,3 +40,5 @@ Click Create.
 Note: To redirect traffic from HTTP to HTTPS, you need to set up an additional HTTP load balancer with a redirect setting in the URL map. For instructions, see Setting up HTTP-to-HTTPS redirect for external HTTP(S) load balancers.
 
 NOTICE: You need to enable Cloud Build API
+
+otorgar compute.urlMaps.invalidateCache al servicio de cloud build. crear custom role y asignar a cloud build service account
