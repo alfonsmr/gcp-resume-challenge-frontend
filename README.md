@@ -1,25 +1,3 @@
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Thanks again! Now go create something AMAZING! :D
-***
-***
-***
-*** To avoid retyping too much info. Do a search and replace for the following:
-*** alfonsmr, gcp-resume-challenge-backend, alfons_mr, alfons.munoz@aristaequis.com, GCP Resume Challenge - aCloudGuru, build a serverless resume / personal brand website on GCP with API backend and GitOps-based CI/CD
--->
-
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -32,23 +10,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/alfonsmr/gcp-resume-challenge-backend">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/alfonsmr/gcp-resume-challenge-frontend">
+    <img src="images/aristaequis-vertical.png" alt="Logo" width="15%" height="15%">
   </a>
 
-  <h3 align="center">GCP Resume Challenge - aCloudGuru</h3>
+  <h3 align="center">Google Cloud Platform (GCP) Resume Challenge - aCloudGuru</h3>
 
   <p align="center">
-    build a serverless resume / personal brand website on GCP with API backend and GitOps-based CI/CD
+    Build a serverless resume / personal brand website on GCP with API backend and GitOps-based CI/CD
     <br />
-    <a href="https://github.com/alfonsmr/gcp-resume-challenge-backend"><strong>Explore the docs »</strong></a>
+    <a href="https://acloudguru.com/blog/engineering/cloudguruchallenge-your-resume-on-gcp"><strong>See challenge description by Mattias Andersson @CloudGuru »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/alfonsmr/gcp-resume-challenge-backend">View Demo</a>
+    <a href="https://gcp-resume-challenge.alfonsmr.com/">View Demo</a>
     ·
-    <a href="https://github.com/alfonsmr/gcp-resume-challenge-backend/issues">Report Bug</a>
+    <a href="https://github.com/alfonsmr/gcp-resume-challenge-frontend/issues">Report Bug</a>
     ·
-    <a href="https://github.com/alfonsmr/gcp-resume-challenge-backend/issues">Request Feature</a>
+    <a href="https://github.com/alfonsmr/gcp-resume-challenge-frontend/issues">Request Feature</a>
   </p>
 </p>
 
@@ -85,33 +63,78 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<!-- PROJECT IMAGE -->
+<br />
+<p align="center">
+  <a href="https://github.com/alfonsmr/gcp-resume-challenge-frontend">
+    <img src="images/hugo-template.png" alt="Logo" width="50%" height="50%">
+  </a>
+</p>
+<br />
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`alfonsmr`, `gcp-resume-challenge-backend`, `alfons_mr`, `alfons.munoz@aristaequis.com`, `GCP Resume Challenge - aCloudGuru`, `build a serverless resume / personal brand website on GCP with API backend and GitOps-based CI/CD`
+You will build a serverless resume / personal brand website on GCP with API backend and GitOps-based CI/CD
 
+In this challenge you will gain authentic experience with many skills, including coding, storage, compute, networking, source control, CI/CD, Serverless architecture, GitOps, and technical communication.
+
+This project is my personal implementation of the challenge that A Cloud Guru launched on August 2021
+
+Look at original "Your resume on GCP" challenge instrucctions before looking at this repo code to have a real challenge yourself.
+
+See https://acloudguru.com/blog/engineering/cloudguruchallenge-your-resume-on-gcp for more information of the challenge.
+
+This is the first part, the frontend part of the project
+You will find the second part, the backend at 
 
 ### Built With
 
-* []()
-* []()
-* []()
+This project uses the following GCP products and technologies:
 
+* Compute & Containers
+  * [Cloud Run](https://cloud.google.com/run)
+  * [Container Registry](https://cloud.google.com/container-registry)
+  * [Container Security](https://cloud.google.com/anthos/security)
+* Databases
+  * [Firestore](https://cloud.google.com/firestore)
+* Developer Tools
+  * [Cloud Build](https://cloud.google.com/cloud-build)
+  * [Cloud Source Repository](https://cloud.google.com/source-repositories)
+* Management Tools
+  * [Cloud Shell](https://cloud.google.com/shell)
+  * [Cloud Console](https://cloud.google.com/cloud-console)
+* Networking
+  * [Cloud Armor](https://cloud.google.com/armor)
+  * [Cloud CDN](https://cloud.google.com/cdn)
+  * [Cloud Domains](https://cloud.google.com/domains/docs)
+  * [Cloud DNS](https://cloud.google.com/dns)
+  * [Cloud Load Balancing](https://cloud.google.com/load-balancing)
+* Operations
+  * [Cloud Debuger](https://cloud.google.com/debugger)
+  * [Cloud Logging](https://cloud.google.com/logging)
+  * [Cloud Monitoring](https://cloud.google.com/monitoring)
+  * [Cloud Profiler](https://cloud.google.com/profiler)
+  * [Cloud Trace](https://cloud.google.com/trace)
+* Security and Identity
+  * [Firewalls](https://cloud.google.com/firewalls)
+  * [Cloud Identity](https://cloud.google.com/identity)
+* Storage
+  * [Cloud Storage](https://cloud.google.com/storage)
 
+The frontend also uses:
+
+* [Hugo](https://gohugo.io/)
+
+Apart from Google Cloud Source, the code is also stored in GitHub and the frontend uses Google Analytics.
+
+The GitOps code is only stored in Google Cloud Source repositoy.
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running follow these simple steps.
+Apart from your code, everything will be stored in GCP products or Github.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+You can use your own GCP account. If you don't have one you can set-up a trial one with access to a free tier and $300 in credit. [Free Trial and Free Tier.](https://cloud.google.com/free)
 
 ### Installation
 
@@ -119,28 +142,19 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    git clone https://github.com/alfonsmr/gcp-resume-challenge-backend.git
    ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
 
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
+You can use this code as inspiration or if you are doing the challenge yourself and got stuck.
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
 See the [open issues](https://github.com/alfonsmr/gcp-resume-challenge-backend/issues) for a list of proposed features (and known issues).
-
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -153,94 +167,33 @@ Contributions are what make the open source community such an amazing place to b
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-
-
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-
-
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@alfons_mr](https://twitter.com/alfons_mr) - alfons.munoz@aristaequis.com
+Alfons Muñoz - [@alfons_mr](https://twitter.com/alfons_mr) - alfons.munoz@aristaequis.com
 
-Project Link: [https://github.com/alfonsmr/gcp-resume-challenge-backend](https://github.com/alfonsmr/gcp-resume-challenge-backend)
-
-
+Project Link (Frontend)(This repo): [https://github.com/alfonsmr/gcp-resume-challenge-frontend](https://github.com/alfonsmr/gcp-resume-challenge-frontend)
+Project Link (Backend): [https://github.com/alfonsmr/gcp-resume-challenge-backend](https://github.com/alfonsmr/gcp-resume-challenge-backend)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* []()
-* []()
-* []()
-
-
-
-
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/alfonsmr/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/alfonsmr/gcp-resume-challenge-backend/graphs/contributors
+[contributors-url]: https://github.com/alfonsmr/gcp-resume-challenge-frontend/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/alfonsmr/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/alfonsmr/gcp-resume-challenge-backend/network/members
+[forks-url]: https://github.com/alfonsmr/gcp-resume-challenge-frontend/network/members
 [stars-shield]: https://img.shields.io/github/stars/alfonsmr/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/alfonsmr/gcp-resume-challenge-backend/stargazers
+[stars-url]: https://github.com/alfonsmr/gcp-resume-challenge-frontend/stargazers
 [issues-shield]: https://img.shields.io/github/issues/alfonsmr/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/alfonsmr/gcp-resume-challenge-backend/issues
+[issues-url]: https://github.com/alfonsmr/gcp-resume-challenge-frontend/issues
 [license-shield]: https://img.shields.io/github/license/alfonsmr/repo.svg?style=for-the-badge
-[license-url]: https://github.com/alfonsmr/gcp-resume-challenge-backend/blob/master/LICENSE.txt
+[license-url]: https://github.com/alfonsmr/gcp-resume-challenge-frontend/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/alfonsmr
-
-# gcp-resume-challenge-frontend
-Google Cloud Platform (GCP) Resume Challenge
-
-https://acloudguru.com/blog/engineering/cloudguruchallenge-your-resume-on-gcp
-
-Bibliografy:
-
-https://cloud.google.com/storage/docs/hosting-static-website
-https://github.com/jbub/ghostwriter
-https://themes.gohugo.io/themes/ghostwriter/
-https://qualityandinnovation.com/2020/12/23/pushing-your-hugo-site-to-a-gcs-bucket-part-3/
-
-
-
-
-Process
-
-Create Hugo site
-make hugo
-
-gsutil cp -r * gs://gcp-resume-challenge
-gsutil web set -m index.html -e 404.html gs://gcp-resume-challenge
-
-Load balancer with SSL certificate
-
-Go to the Load balancing page in the Google Cloud Console. https://console.cloud.google.com/networking/loadbalancing/
-Under HTTP(S) load balancing, click Start configuration.
-Select From Internet to my VMs and click Continue.
-Give your load balancer a Name, such as example-lb. (Enable Compute Egine API if asked)
-
-Configuring the backend
-Click Backend configuration.
-In the Create or select backend services & backend buckets dropdown, go to the Backend buckets sub-menu, and click the Create a backend bucket option.
-Choose a Name for the backend bucket, such as example-bucket.
-Click Browse under Cloud Storage bucket.
-Select the my-static-assets bucket and click Select.
-If you want to use Cloud CDN, select the checkbox for Enable Cloud CDN. Leave the Cache mode selection as Cache static content. Note that Cloud CDN may incur additional costs.
-Click Create.
-
-Note: To redirect traffic from HTTP to HTTPS, you need to set up an additional HTTP load balancer with a redirect setting in the URL map. For instructions, see Setting up HTTP-to-HTTPS redirect for external HTTP(S) load balancers.
-
-NOTICE: You need to enable Cloud Build API
-
-otorgar compute.urlMaps.invalidateCache al servicio de cloud build. crear custom role y asignar a cloud build service account
-
-
-
