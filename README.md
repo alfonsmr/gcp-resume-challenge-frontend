@@ -83,7 +83,7 @@ Look at original "Your resume on GCP" challenge instrucctions before looking at 
 See https://acloudguru.com/blog/engineering/cloudguruchallenge-your-resume-on-gcp for more information of the challenge.
 
 This is the first part, the frontend part of the project
-You will find the second part, the backend at 
+You will find the second part, the backend at https://github.com/alfonsmr/gcp-resume-challenge-backend
 
 ### Built With
 
@@ -178,10 +178,13 @@ Distributed under the MIT License. See `LICENSE` for more information.
 Alfons Muñoz - [@alfons_mr](https://twitter.com/alfons_mr) - alfons.munoz@aristaequis.com
 
 Project Link (Frontend)(This repo): [https://github.com/alfonsmr/gcp-resume-challenge-frontend](https://github.com/alfonsmr/gcp-resume-challenge-frontend)
+
 Project Link (Backend): [https://github.com/alfonsmr/gcp-resume-challenge-backend](https://github.com/alfonsmr/gcp-resume-challenge-backend)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
+
+This repo is my implementation of the challenge designed and presented by Mattias Andersson at https://acloudguru.com
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
