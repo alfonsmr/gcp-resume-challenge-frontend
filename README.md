@@ -188,15 +188,15 @@ This repo is my implementation of the challenge designed and presented by Mattia
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/alfonsmr/repo.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/alfonsmr/gcp-resume-challenge-frontend
 [contributors-url]: https://github.com/alfonsmr/gcp-resume-challenge-frontend/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/alfonsmr/repo.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/alfonsmr/gcp-resume-challenge-frontend
 [forks-url]: https://github.com/alfonsmr/gcp-resume-challenge-frontend/network/members
-[stars-shield]: https://img.shields.io/github/stars/alfonsmr/repo.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/alfonsmr/gcp-resume-challenge-frontend
 [stars-url]: https://github.com/alfonsmr/gcp-resume-challenge-frontend/stargazers
-[issues-shield]: https://img.shields.io/github/issues/alfonsmr/repo.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/alfonsmr/gcp-resume-challenge-frontend
 [issues-url]: https://github.com/alfonsmr/gcp-resume-challenge-frontend/issues
-[license-shield]: https://img.shields.io/github/license/alfonsmr/repo.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/alfonsmr/gcp-resume-challenge-frontend
 [license-url]: https://github.com/alfonsmr/gcp-resume-challenge-frontend/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/alfonsmr
