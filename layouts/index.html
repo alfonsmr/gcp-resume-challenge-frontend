@@ -3,13 +3,17 @@
 <div id="post-index" class="container" itemscope="" itemtype="https://schema.org/Blog">
     {{ partial "intro.html" . }}
 
-    <ol class="post-list">
+<!--     <ol class="post-list">
         {{ $pag := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
         {{ range $pag.Pages }}
             {{ partial "post-stub.html" . }}
         {{ end }}
-    </ol>
+    </ol> -->
+    <center><bold>
+      <div id="counter">
 
+      </div>
+    </center></bold>
     <div class="post-navigation">
         {{ partial "pagination.html" . }}
     </div>
@@ -21,6 +25,7 @@ $(document).ready(function(){
   $("button").click(function(){
     $.get("https://gcp-resume-challenge-counter-ynluththuq-uc.a.run.app/", function(data, status){
       alert("Total: " + data['total'] + "\nStatus: " + status);
+      document.getElementById("counter").innerHTML = "Visit# " + data['total'];
     });
   });
 });
