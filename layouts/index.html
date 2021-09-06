@@ -20,7 +20,7 @@
 $(document).ready(function(){
   $("button").click(function(){
     $.get("https://gcp-resume-challenge-counter-ynluththuq-uc.a.run.app/", function(data, status){
-      alert("Data: " + data + "\nStatus: " + status);
+      alert("Total: " + data['total'] + "\nStatus: " + status);
     });
   });
 });
