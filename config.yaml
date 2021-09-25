@@ -39,7 +39,7 @@ params:
     - post
   intro: true
   headline: GCP Resume Challenge
-  description: A Cloud Guru GCP Resume Challenge
+  description: Challenge Designed by @MattiasEh. Implemented by @alfons_mr
   github: "https://github.com/alfonsmr"
   #gitlab: "https://gitlab.com/XXX"
   linkedin: "https://linkedin.com/in/alfonsmr/"
@@ -72,6 +72,6 @@ permalinks:
 
 menu:
   main:
-    - name: About
-      url: /page/about/
+    - name: Projects
+      url: /project/acloudguru-gcp-resume-challenge/
       weight: 1
