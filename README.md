@@ -35,26 +35,16 @@
 <details open="open">
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
+    <li><a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#the-author">The Author</a></li>
         <li><a href="#the-project">The Project</a></li>
       </ul>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
+    <li><a href="#usage">The Project</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">The Project</a></li>
-      <ul>
-        <li><a href="#">Frontend</a></li>
+        <li><a href="#">Frontend</a>
           <ul>
-            <li><a href="#">Description</a></li>
-            <li><a href="#">Diagram</a></li>
             <li><a href="#">The development proccess</a></li>
             <li><a href="#">Hosting the Site</a></li>
             <li><a href="#">Using your own domain</a></li>
@@ -62,10 +52,9 @@
             <li><a href="#">Using Cloud CDN</a></li>
             <li><a href="#">The CI/CD process</a></li>
           </ul>
-        <li><a href="#">Backend</a></li>
+        </li>
+        <li><a href="#">Backend</a>
           <ul>
-            <li><a href="#">Description</a></li>
-            <li><a href="#">Diagram</a></li>
             <li><a href="#">The Cloud Run API</a></li>
             <li><a href="#">The Firestore Database</a></li>
             <li><a href="#">Store the code in Github</a></li>
@@ -74,11 +63,13 @@
             <li><a href="#">The GitOps Implementation</a></li>
             <li><a href="#">The CI/CD process</a></li>
           </ul>
-        <li><a href="#">Putting All Together</a></li>
+        </li>
+        <li><a href="#">Putting All Together</a>
           <ul>
-            <li><a href="#">Description</a></li>
             <li><a href="#">Other GCP services</a></li>
           </ul>
+        </li>
+    </li>
       </ul>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
@@ -97,7 +88,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/alfonsmr/gcp-resume-challenge-frontend">
-    <img src="images/hugo-template.png" alt="Logo" width="50%" height="50%">
+    <img src="images/hugo-template.png" alt="Logo" width="95%" height="95%">
   </a>
 </p>
 <br />
@@ -107,48 +98,28 @@
 <br />
 <p align="center">
   <a href="https://github.com/alfonsmr/gcp-resume-challenge-frontend">
-    <img src="images/hugo-template.png" alt="Logo" width="50%" height="50%">
+    <img src="images/hugo-template.png" alt="Logo" width="95%" height="95%">
   </a>
 </p>
 <br />
 
-## Project Frontend Diagram
+In this project we are going to build a personal brand website on GCP with an API backend and Gitops-based CI/CD. We will be able to monitor our project with Google Cloud Operations.
 
-<br />
-<p align="center">
-  <a href="https://github.com/alfonsmr/gcp-resume-challenge-frontend">
-    <img src="images/hugo-template.png" alt="Logo" width="50%" height="50%">
-  </a>
-</p>
-<br />
+This project is my personal implementation of the challenge that Mattias Andersson from a Cloud Guru launched on August 2021.
 
-## Project Backend Diagram
+Look at original [Your resume on GCP](https://acloudguru.com/blog/engineering/cloudguruchallenge-your-resume-on-gcp) challenge instrucctions before looking at this repo code to have a real challenge yourself.
 
-<br />
-<p align="center">
-  <a href="https://github.com/alfonsmr/gcp-resume-challenge-frontend">
-    <img src="images/hugo-template.png" alt="Logo" width="50%" height="50%">
-  </a>
-</p>
-<br />
+This repository holds the README file for the whole project and the frontend code. 
 
-In this project we are going to build a personal brand website on GCP with an API backend and Gitops-based CI/CD. We will be able to monitor our entire project with Google Cloud Operations.
+The repository for the Backend can be found at [gcp-resume-challenge-backend](https://github.com/alfonsmr/gcp-resume-challenge-backend)
 
-In this project you will gain experience with many skills, including coding, storage, compute, networking, source control, CI/CD, Serverless architecture, GitOps, and technical communication.
-
-This project is my personal implementation of the challenge that A Mattias Andersson from a Cloud Guru launched on August 2021.
-
-Look at original ["Your resume on GCP"](https://acloudguru.com/blog/engineering/cloudguruchallenge-your-resume-on-gcp) challenge instrucctions before looking at this repo code to have a real challenge yourself.
-
-This repository holds the README file for the whole project and the frontend code. The repository for the Backend can be found at https://github.com/alfonsmr/gcp-resume-challenge-backend
-
-The rpository for the GitOps-based CI/CD is stored privately in the backend GCP Project.
+The Repository for the GitOps-based CI/CD is stored privately CSR in the backend GCP Project.
 
 ### The Author
 
-My name is Alfons Muñoz, I'm a computer engineer from Spain, now living in Mexico. I'm passionate about Cloud Technology and DevOps culture. In particular I'm interested in Google CLoud Platform (GCP) and google implementation of DevOps and SRE. I'm 3x Google Certified Professional [Thanks a Cloud Guru! ;-)]() and founder of [aristaequis](http://www.aristaequis.com) a Google Cloud Partner in Mexico. I'm also the Latin America Community Manager at [C2C Global](https://bit.ly/3AJLbrI), "The Independent Google Cloud Community".
+My name is Alfons Muñoz, I'm a computer engineer from Spain, currently living in Mexico. I'm passionate about Cloud Technology and DevOps culture. In particular I'm interested in Google Cloud Platform (GCP) and google implementation of DevOps and SRE. I'm 3x Google Certified Professional, [Thanks a Cloud Guru! ;-)](https://learn.acloud.guru/profile/alfonsmr), and founder of [aristaequis](http://www.aristaequis.com) a Google Cloud Partner in Mexico. I'm also the Latin America Community Manager at [C2C Global](https://bit.ly/3AJLbrI), "The Independent Google Cloud Community".
 
-Be sure to visit the [C2C Community](https://bit.ly/3AJLbrI) and drop me a message or start a new topic if you want to continue the conversation about this project.
+Be sure to visit the [C2C Community](https://bit.ly/3AJLbrI) and drop me a message or start a new topic if you want to continue the conversation about this project or any other GCP related topic!.
 
 You can also contact me through [Linkedin](https://www.linkedin.com/in/alfonsmr/)
 
@@ -194,44 +165,34 @@ The code repository and versioning is done with Github.
 The frontend uses Google Analytics.
 The GitOps code for the backend is kept in a private Google Cloud Source repositoy.
 
-<!-- GETTING STARTED -->
-## Getting Started
-
-You can follow the explanaitons here to make the project, do not clone the project as it is my own implementation of the challenge. You will need to prepare your own implementation
-
-### Prerequisites
-
-You can use your own GCP account. If you don't have one you can set-up a trial one with access to a free tier and $300 in credit. [Free Trial and Free Tier.](https://cloud.google.com/free)
-
-You will also need some code editor like VS Code and a Github account.
-
-### Installation
-
-You can do almost all the job from inside Google Cloud Shell Console and edit files with Cloud Shell Editor.
-
-For the frontend it's recommended to install Hugo in your computer.
-
 ## The Project
 
 ### The Frontend
 
-The frontend is developed using [HUGO](https://gohugo.io/), Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator. Unlike systems that dynamically build a page with each visitor request, Hugo builds pages when you create or update your content.
-In technical terms, Hugo takes a source directory of files and templates and uses these as input to create a complete website.
+The frontend is developed using [HUGO](https://gohugo.io/), Hugo is a general-purpose website framework. Hugo is a static site generator. Unlike systems that dynamically build a page with each visitor request, Hugo builds pages when you create or update your content. In technical terms, Hugo takes a source directory of files and templates and uses these as input to create a complete website.
 
 I used [Ghostwriter](https://themes.gohugo.io/themes/ghostwriter/) a Hugo template created by [Juraj Bubniak](https://github.com/jbub) as the starting point for my website.
 
-The website consist of main page at (https://gcp-resume-challenge.alfonsmr.com/), this will be the "Personal brand" webpage and will contain:
+The website consist of main page at (https://gcp-resume-challenge.alfonsmr.com/), this is the "Personal brand" webpage and contains:
 * My name and a Linkedin profile
 * a link to my GCP Certifications 
 * A Link to my profile at A Cloud Guru
-* A visitor counter, using our backend to store and retrieve the counter.
+* A visitor counter that uses the backend to store and retrieve a vistor counter.
 * A subpage with a description of the challenge/project
+
+<br />
+<p align="center">
+  <a href="https://github.com/alfonsmr/gcp-resume-challenge-frontend">
+    <img src="images/hugo-template.png" alt="Logo" width="95%" height="95%">
+  </a>
+</p>
+<br />
 
 #### The development proccess
 
-The website is developed locally using VS Code and the changes are pushed to a github repository. You can use the "hugo" command to build and see the website but we are not going to push the "public" directory into the repository. we are going to build and publish the website with Google Cloud Build.
+The website is developed locally using VS Code and the changes are pushed to a github repository. We use the "hugo" command to build and see the website but we are not going to push the "public" directory into the repository. we are going to build and publish the website with Google Cloud Build from the repository.
 
-We don't need to modify any of the Go templates because we are doing minor changes or adding content using only html, css and JS.
+We don't need to modify any of the Go templates because we are doing minor changes or adding content using only html, css and js.
 
 In the main index.html page we include a JQuery Javascript that calls our backend, retrieves the counter value and displays it on the webpage. 
 
@@ -275,15 +236,15 @@ To enable Cloud CDN for our HTTPS Load Balancer see the following documentation:
 
 * [Setting up Cloud CDN with a backend bucket](https://cloud.google.com/cdn/docs/setting-up-cdn-with-bucket)
 
-#### The CI/CD process for the frontend
+#### The CI/CD process
 
-Now that we have everything in place we will setup a CloudBuild action that builds and publishes our site everytinme we change our webpage and push the changes to Github. CloudBuild will be also repsonsible to invalidate the CDN cache every time it runs so we can be sure users are seeing our most recent changes.
+Now that we have everything in place we will setup a CloudBuild action that builds and publishes our site everytinme we change our webpage and push the changes to Github. CloudBuild will be also repsonsible to invalidate the CDN cache every time it runs so we can be sure users are getting our most recent changes.
 
 Cloudbuild will:
 
 * Download Hugo executable and build our website from our Github files
 * Copy the built website into the GCS Bucket
-* Invvalidate the cache
+* Invalidate the CDN cache
 
 You can follow this documentation to see how Cloubuild works:
 
@@ -293,19 +254,105 @@ You can see the cloudbuild.yaml file in this repository to see exactly which ste
 
 ### The Backend
 
+The backend is written in Python using the Flask framework. The backend is responsible for:
+* Update and retrieve the counter in Firestore every time it is called
+
+<br />
+<p align="center">
+  <a href="https://github.com/alfonsmr/gcp-resume-challenge-frontend">
+    <img src="images/hugo-template.png" alt="Logo" width="95%" height="95%">
+  </a>
+</p>
+<br />
+
 #### The Cloud Run API
+
+Our backend consist of a python program that uses the flask framework. It is stored as a container in Cloud Run.
+
+When the fronend runs it makes a query to the Cloud Run python prgoramm that retrieves the data from Firestore and pass it back to the frontend to display.
+
+Google Cloud Run documentation for deploying a Python service:
+[Build and deploy a Python service](https://cloud.google.com/run/docs/quickstarts/build-and-deploy/python)
 
 #### The Firestore Database
 
+I used firestore to keep track of the counter. Through [Firebase Console](https://firebase.google.com/) I created a Colection with a single document with a field on it. It stores the number of visits.
+Using the firebase console you will need to download the firebase API key that will be used by the flask API to access and write to Firebase database.
+
+More info on using Firestore with Flask:
+* [Building a Flask(Python) CRUD API with Cloud Firestore(Firebase) and Deploying on Cloud Run](https://medium.com/google-cloud/building-a-flask-python-crud-api-with-cloud-firestore-firebase-and-deploying-on-cloud-run-29a10c502877)
+
 #### Store the code in Github
+
+The code from the python programm is stored in Github. It is Cloud Build the responsible to build the container, using the Dockerfile.
 
 #### Using Cloud Source Repositories (CSR)
 
+The app will use a GitOps-Style Iac (see more about GitOps in next section), This Iac (Infraestructure as Code) holds very sensitive information and does not have any advantage to store it in GitHub so we use the equivalent Cloud Source Repositories (CSR) to store the templates. 
+
+
 #### Using Cloud Build with Cloud Source Repositories (CSR)
 
-#### The CI/CD process for the frontend
+#### The GitOps Implementation
+
+I am using GitOps-style Iac. When I push a change to the app repository (this is the Python app), the Cloud Build pipeline runs tests, builds a container image, and pushes it to Container Registry. After pushing the image, Cloud Build updates the template used to deploy the app as a Cloud Run Container, and pushes it to the env repository. This triggers another Cloud Build pipeline that uses the template to create the Cloud Run Container, if successful, stores the template file in another branch of the env repository.
+
+This approach provides a way to control with revision control which template and image was used exactly for the deployment, at the same time you can redeploy or rollback any version of the app just pointing at the commit that has the template you want. Using this approach you can easily:
+
+* Distinguish between failed and successful deployments by looking at the Cloud Build history,
+* Access the manifest currently used by looking at the production branch of the env repository,
+* Rollback to any previous version by re-executing the corresponding Cloud Build build.
+
+More information about GitOps-style with Cloud Build can be found at [GitOps-style continuous delivery with Cloud Build](https://cloud.google.com/kubernetes-engine/docs/tutorials/gitops-cloud-build)
+
+#### The CI/CD process
+
+The CI/CD process for the backend is more complicated than the one for the frontend but also much more powerful. I used 2 pipelines.
+
+The first one or "app pipeline", it is responsible to build the artifacts or containers that we are going to use to deploy our application into Cloud Run. To do that the pipelin builds a container that is pushed to the container registry and a new template is generated with the parameters to deploy the new container to Cloud Run. This new templated is stored in Google CSR.
+
+The second pipeline or "env pipeline" detects that new template in the Google CSR and deploys it to Cloud Run, if successful the new template gets commited to production branch.
 
 ### All Together
+
+#### Other GCP Services
+
+Cloud Run is automatically integrated with Cloud Monitoring with no setup or configuration required.
+
+<br />
+<p align="center">
+  <a href="https://github.com/alfonsmr/gcp-resume-challenge-frontend">
+    <img src="images/request-count.png" alt="Logo" width="65%" height="65%">
+  </a>
+</p>
+
+logging
+
+<br />
+<p align="center">
+  <a href="https://github.com/alfonsmr/gcp-resume-challenge-frontend">
+    <img src="images/logging.png" alt="Logo" width="65%" height="65%">
+  </a>
+</p>
+
+Profiler
+
+<br />
+<p align="center">
+  <a href="https://github.com/alfonsmr/gcp-resume-challenge-frontend">
+    <img src="images/logging.png" alt="Logo" width="65%" height="65%">
+  </a>
+</p>
+
+Tracer
+
+<br />
+<p align="center">
+  <a href="https://github.com/alfonsmr/gcp-resume-challenge-frontend">
+    <img src="images/logging.png" alt="Logo" width="65%" height="65%">
+  </a>
+</p>
+
 
 ## Roadmap
 
