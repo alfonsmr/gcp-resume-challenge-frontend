@@ -20,7 +20,7 @@
   <p align="center">
     Build a serverless resume / personal brand website on GCP with API backend and GitOps-based CI/CD
     <br />
-    <a href="https://acloudguru.com/blog/engineering/cloudguruchallenge-your-resume-on-gcp" target="blank"><strong>See challenge description by Mattias Andersson @CloudGuru »</strong></a>
+    <a href="https://acloudguru.com/blog/engineering/cloudguruchallenge-your-resume-on-gcp" target="_blank"><strong>See challenge description by Mattias Andersson @CloudGuru »</strong></a>
     <br />
     <br />
     <a href="https://gcp-resume-challenge.alfonsmr.com/">View Demo</a>
@@ -53,27 +53,32 @@
       <ul>
         <li><a href="#">Frontend</a></li>
           <ul>
-            <li><a href="#">Prerequisites</a></li>
-            <li><a href="#">Installation</a></li>
-            <li><a href="#">Prerequisites</a></li>
-            <li><a href="#">Installation</a></li>
-            <li><a href="#">Prerequisites</a></li>
-            <li><a href="#">Installation</a></li>
-            <li><a href="#">Prerequisites</a></li>
-            <li><a href="#">Installation</a></li>
+            <li><a href="#">Description</a></li>
+            <li><a href="#">Diagram</a></li>
+            <li><a href="#">The development proccess</a></li>
+            <li><a href="#">Hosting the Site</a></li>
+            <li><a href="#">Using your own domain</a></li>
+            <li><a href="#">Using HTTPS</a></li>
+            <li><a href="#">Using Cloud CDN</a></li>
+            <li><a href="#">The CI/CD process</a></li>
           </ul>
         <li><a href="#">Backend</a></li>
           <ul>
-            <li><a href="#">Prerequisites</a></li>
-            <li><a href="#">Installation</a></li>
-            <li><a href="#">Prerequisites</a></li>
-            <li><a href="#">Installation</a></li>
-            <li><a href="#">Prerequisites</a></li>
-            <li><a href="#">Installation</a></li>
-            <li><a href="#">Prerequisites</a></li>
-            <li><a href="#">Installation</a></li>
+            <li><a href="#">Description</a></li>
+            <li><a href="#">Diagram</a></li>
+            <li><a href="#">The Cloud Run API</a></li>
+            <li><a href="#">The Firestore Database</a></li>
+            <li><a href="#">Store the code in Github</a></li>
+            <li><a href="#">Using Cloud Source Repositories (CSR)</a></li>
+            <li><a href="#">Using Cloud Build with Cloud Source Repositories (CSR)</a></li>
+            <li><a href="#">The GitOps Implementation</a></li>
+            <li><a href="#">The CI/CD process</a></li>
           </ul>
         <li><a href="#">Putting All Together</a></li>
+          <ul>
+            <li><a href="#">Description</a></li>
+            <li><a href="#">Other GCP services</a></li>
+          </ul>
       </ul>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
@@ -141,7 +146,7 @@ The rpository for the GitOps-based CI/CD is stored privately in the backend GCP 
 
 ### The Author
 
-My name is Alfons Muñoz, I'm a computer engineer from Spain, now living in Mexico. I'm passionate about Cloud Technology and DevOps culture. In particular I'm interested in Google CLoud Platform (GCP) and google implementation of DevOps and SRE. I'm 3x Google Certified Professional and founder of [aristaequis]() a Google Cloud Partner in Mexico. I'm also the Latin America Community Manager for [C2C Global](https://bit.ly/3AJLbrI), "The Independent Google Cloud Community".
+My name is Alfons Muñoz, I'm a computer engineer from Spain, now living in Mexico. I'm passionate about Cloud Technology and DevOps culture. In particular I'm interested in Google CLoud Platform (GCP) and google implementation of DevOps and SRE. I'm 3x Google Certified Professional [Thanks a Cloud Guru! ;-)]() and founder of [aristaequis](http://www.aristaequis.com) a Google Cloud Partner in Mexico. I'm also the Latin America Community Manager at [C2C Global](https://bit.ly/3AJLbrI), "The Independent Google Cloud Community".
 
 Be sure to visit the [C2C Community](https://bit.ly/3AJLbrI) and drop me a message or start a new topic if you want to continue the conversation about this project.
 
@@ -306,8 +311,8 @@ You can see the cloudbuild.yaml file in this repository to see exactly which ste
 
 Things missing in the project due to time constraints that I would like to implement in the future
 
-* Add test ciode for the frontend
-* Improve the test code for the backend
+* Add unit-test code for the frontend
+* Improve the unit-test code for the backend
 * Add terraform Iac to be able to create the project from scratch
 * Define and add an SLO for the backend
 * Merge the forntend and backend into a single repo
