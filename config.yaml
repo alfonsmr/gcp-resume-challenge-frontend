@@ -18,6 +18,9 @@ markup:
     lineNumbersInTable: true
     noClasses: true
     tabWidth: 2
+  goldmark:
+    renderer:
+      unsafe: true
 
 privacy:
   disqus:
