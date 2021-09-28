@@ -4,10 +4,11 @@ date = 2015-04-03T02:13:50Z
 author = "My Name"
 description = "Things about me."
 +++
+<center>
 
-<a href="https://github.com/alfonsmr/gcp-resume-challenge-frontend">
-    <img src="images/alfonsmr.png" alt="Logo" width="95%" height="95%">
-</a>
+![Example image](./../images/alfonsmr.png)
+
+</center>
 
 My name is Alfons Muñoz, I'm a computer engineer from Spain, currently living in Mexico. 
 
