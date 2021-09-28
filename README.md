@@ -23,7 +23,7 @@
     <a href="https://acloudguru.com/blog/engineering/cloudguruchallenge-your-resume-on-gcp" target="_blank"><strong>See challenge description by Mattias Andersson @CloudGuru »</strong></a>
     <br />
     <br />
-    <a href="https://gcp-resume-challenge.alfonsmr.com/">View Demo</a>
+    <a href="https://gcp-resume-challenge.alfonsmr.com/" target="_blank">View Demo</a>
     <br />
     <a href="https://github.com/alfonsmr/gcp-resume-challenge-frontend/issues">Report Bug</a>
     ·
@@ -43,30 +43,30 @@
     </li>
     <li><a href="#usage">The Project</a>
       <ul>
-        <li><a href="#">Frontend</a>
+        <li><a href="#frontend">Frontend</a>
           <ul>
-            <li><a href="#">The development proccess</a></li>
-            <li><a href="#">Hosting the Site</a></li>
-            <li><a href="#">Using your own domain</a></li>
-            <li><a href="#">Using HTTPS</a></li>
-            <li><a href="#">Using Cloud CDN</a></li>
-            <li><a href="#">The CI/CD process</a></li>
+            <li><a href="#the-development-proccess">The development proccess</a></li>
+            <li><a href="#hosting-the-site">Hosting the Site</a></li>
+            <li><a href="#using-your-own-domain">Using your own domain</a></li>
+            <li><a href="#using-https">Using HTTPS</a></li>
+            <li><a href="#using-cloud-cdn">Using Cloud CDN</a></li>
+            <li><a href="#the-cicd-process">The CI/CD process</a></li>
           </ul>
         </li>
-        <li><a href="#">Backend</a>
+        <li><a href="#backend">Backend</a>
           <ul>
-            <li><a href="#">The Cloud Run API</a></li>
-            <li><a href="#">The Firestore Database</a></li>
-            <li><a href="#">Store the code in Github</a></li>
-            <li><a href="#">Using Cloud Source Repositories (CSR)</a></li>
-            <li><a href="#">Using Cloud Build with Cloud Source Repositories (CSR)</a></li>
-            <li><a href="#">The GitOps Implementation</a></li>
-            <li><a href="#">The CI/CD process</a></li>
+            <li><a href="#the-cloud-run-api">The Cloud Run API</a></li>
+            <li><a href="#the-firestore-database">The Firestore Database</a></li>
+            <li><a href="#store-the-code-in-github">Store the code in Github</a></li>
+            <li><a href="#using-cloud-source-repositories-(csr)">Using Cloud Source Repositories (CSR)</a></li>
+            <li><a href="#using-cloud-build-with-cloud-source-repositories-(csr)">Using Cloud Build with Cloud Source Repositories (CSR)</a></li>
+            <li><a href="#the-gitops-implementation">The GitOps Implementation</a></li>
+            <li><a href="#the-ci/cd-process">The CI/CD process</a></li>
           </ul>
         </li>
-        <li><a href="#">Putting All Together</a>
+        <li><a href="#putting-all-together">Putting All Together</a>
           <ul>
-            <li><a href="#">Other GCP services</a></li>
+            <li><a href="#other-gcp-services">Other GCP services</a></li>
           </ul>
         </li>
     </li>
@@ -117,7 +117,9 @@ The Repository for the GitOps-based CI/CD is stored privately CSR in the backend
 
 ### The Author
 
-My name is Alfons Muñoz, I'm a computer engineer from Spain, currently living in Mexico. I'm passionate about Cloud Technology and DevOps culture. In particular I'm interested in Google Cloud Platform (GCP) and google implementation of DevOps and SRE. I'm 3x Google Certified Professional, [Thanks a Cloud Guru! ;-)](https://learn.acloud.guru/profile/alfonsmr), and founder of [aristaequis](http://www.aristaequis.com) a Google Cloud Partner in Mexico. I'm also the Latin America Community Manager at [C2C Global](https://bit.ly/3AJLbrI), "The Independent Google Cloud Community".
+My name is Alfons Muñoz, I'm a computer engineer from Spain, currently living in Mexico. 
+
+I'm passionate about Cloud Technology and DevOps culture. In particular I'm interested in Google Cloud Platform (GCP) and google implementation of DevOps and SRE. I'm 3x Google Certified Professional, [Thanks a Cloud Guru! ;-)](https://learn.acloud.guru/profile/alfonsmr), and founder of [aristaequis](http://www.aristaequis.com) a Google Cloud Partner in Mexico. I'm also the Latin America Community Manager at [C2C Global](https://bit.ly/3AJLbrI), "The Independent Google Cloud Community".
 
 Be sure to visit the [C2C Community](https://bit.ly/3AJLbrI) and drop me a message or start a new topic if you want to continue the conversation about this project or any other GCP related topic!.
 
@@ -228,7 +230,7 @@ Follow the following document to set up the load balancer and the bucket backend
 
 * [Setting up a load balancer with backend buckets](https://cloud.google.com/load-balancing/docs/https/ext-load-balancer-backend-buckets)
 
-#### Using Cloud CDN
+#### Using Cloud CDN
 
 To server content closer to the user requesting it and have a cache we will use [Cloud CDN](https://cloud.google.com/cdn/docs/overview)
 

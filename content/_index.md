@@ -5,10 +5,14 @@ author = "My Name"
 description = "Things about me."
 +++
 
-## About
+<a href="https://github.com/alfonsmr/gcp-resume-challenge-frontend">
+    <img src="images/alfonsmr.png" alt="Logo" width="95%" height="95%">
+</a>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec dolor in magna lobortis egestas. Suspendisse eu erat tempor, tristique neque eu, convallis nulla. Curabitur vel bibendum lacus, at semper mauris. Suspendisse aliquet commodo ex, sed sagittis metus aliquam id. Maecenas feugiat rutrum lorem vel imperdiet. Nullam ornare lectus ut enim finibus, et porttitor mi tincidunt. Aenean lacinia, leo quis vehicula eleifend, quam libero sagittis erat, at euismod augue mauris et sapien. Sed id vehicula lectus, sit amet auctor ipsum. Nunc sed massa vel ex condimentum aliquam in a enim. Cras enim sem, tristique eu enim ac, congue commodo mi. Integer quis orci at dolor blandit eleifend.
+My name is Alfons Muñoz, I'm a computer engineer from Spain, currently living in Mexico. 
 
-## School
+I'm passionate about Cloud Technology and DevOps culture. In particular I'm interested in Google Cloud Platform (GCP) and google implementation of DevOps and SRE. I'm 3x Google Certified Professional, [Thanks a Cloud Guru! ;-)](https://learn.acloud.guru/profile/alfonsmr), and founder of [aristaequis](http://www.aristaequis.com) a Google Cloud Partner in Mexico. I'm also the Latin America Community Manager at [C2C Global](https://bit.ly/3AJLbrI), "The Independent Google Cloud Community".
 
-Sed quis pulvinar nisi, sed dapibus lacus. Mauris tempus ex ut ipsum facilisis interdum. Integer feugiat urna sed feugiat tempor. Quisque dictum vestibulum feugiat. Nunc nec est volutpat lorem imperdiet egestas sit amet ut orci. Aliquam venenatis neque ipsum, a placerat lectus cursus at. Donec pellentesque tellus hendrerit faucibus posuere. Etiam gravida consequat lectus, volutpat consectetur velit convallis nec. Praesent sagittis luctus dignissim.
+Be sure to visit the [C2C Community](https://bit.ly/3AJLbrI) and drop me a message or start a new topic if you want to continue the conversation about this project or any other GCP related topic!.
+
+You can also contact me through [Linkedin](https://www.linkedin.com/in/alfonsmr/)
