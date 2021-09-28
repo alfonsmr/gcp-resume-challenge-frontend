@@ -1,6 +1,6 @@
 +++
 title = "GCP Resume Challenge"
-description = "Google Cloud Platform (GCP) Resume Challenge - aCloudGuru"
+description = "CHALLENGE DESIGNED BY @MATTIASEH. IMPLEMENTED BY @ALFONS_MR"
 date = 2014-11-18T02:13:50Z
 author = "Alfons"
 +++

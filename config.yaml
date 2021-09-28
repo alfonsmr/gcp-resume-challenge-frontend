@@ -72,6 +72,6 @@ permalinks:
 
 menu:
   main:
-    - name: Project
+    - name: The Project
       url: /project/acloudguru-gcp-resume-challenge/
       weight: 1
